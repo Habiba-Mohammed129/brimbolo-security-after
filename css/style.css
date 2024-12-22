@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  color: aliceblue;
+  background-color: #000;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+}
+
+.btn {
+  background-color: #545454;
+}
+
+/* Header Section */
+#header {
+  height: 100vh;
+  background-color: black;
+}
+
+.img-side {
+  position: relative;
+  right: -40px;
+  margin-top: 30px;
+}
+
+span {
+  position: relative;
+  right: -9px;
+  font-size: smaller;
+}
+
+.home {
+  color: #545454;
+}
+
+.pp {
+  position: relative;
+  right: -60px;
+}
+
+.header-cotent {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+  text-transform: capitalize;
+  letter-spacing: 6px;
+}
+
+#section {
+  height: 100vh;
+  background-color: black;
+}
+
+.img-side2 {
+  position: relative;
+  right: -150px;
+}
+
+.hhh {
+  font-family: "Roboto", sans-serif;
+  font-weight: 80;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.aa {
+  color: #545454;
+}
+
+.ii {
+  height: 800px;
+  width: 100%;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.testimonial-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.testimonial-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #545454;
+  margin: 10px auto 0;
+}
+
+/* Testimonial Container */
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Testimonial Card */
+.testimonial-card {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}
+
+.customer-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.stars {
+  color: #545454;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Footer Section */
+#footer {
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+/* Contact Section */
+.left-section input,
+.send {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0;
+  color: #fff;
+  border-radius: 9px;
+}
+
+.send {
+  width: 90%;
+  text-align: center;
+}
+
+.phone {
+  font-size: 40px;
+}
+
+/* Social Media Icons */
+#footer .row .col-md-4 {
+  text-align: center;
+}
+
+#footer .phone {
+  font-size: 35px;
+  transition: transform 0.3s;
+}
+
+#footer .phone:hover {
+  transform: scale(1.1);
+}
+
+/* Input Field Adjustments */
+.left-section input {
+  margin-bottom: 10px;
+}
+
+/* ----- Responsive Styles ----- */
+
+/* Mobile devices (up to 767px) */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+      font-size: 28px;
+  }
+
+  .header-cotent {
+      font-size: 18px;
+      letter-spacing: 3px;
+  }
+
+  #header {
+      height: auto;
+      padding: 50px 20px;
+  }
+
+  .img-side {
+      position: relative;
+      right: 0;
+      margin-top: 20px;
+  }
+
+  .img-side2 {
+      position: relative;
+      right: 0;
+  }
+
+  .testimonial-container {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .testimonial-card {
+      width: 100%;
+  }
+
+  .phone {
+      font-size: 30px;
+  }
+
+  .left-section input,
+  .send {
+      padding: 8px;
+  }
+
+  .send {
+      width: 100%;
+  }
+}
+
+/* Tablet devices (768px to 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .navbar-brand {
+      font-size: 32px;
+  }
+
+  .header-cotent {
+      font-size: 24px;
+      letter-spacing: 4px;
+  }
+
+  .img-side,
+  .img-side2 {
+      position: relative;
+      right: -20px;
+  }
+
+  .testimonial-container {
+      flex-direction: row;
+      gap: 20px;
+  }
+
+  .testimonial-card {
+      width: 45%;
+  }
+
+  .phone {
+      font-size: 35px;
+  }
+
+  .left-section input,
+  .send {
+      padding: 10px;
+  }
+
+  .send {
+      width: 90%;
+  }
+}
